@@ -1,0 +1,115 @@
+h1,h3{
+    font-family: fantasy;
+    size: 3rem;
+    line-height: 1.5;
+    
+}
+h2{
+    font-family: fantasy;
+    color: white;
+    font-size: 45px;
+}
+p{
+    font-family: sans-serif;
+}
+.container{
+    padding: 2% 12% ;
+}
+.degree{
+    transform: rotate(20deg);
+}
+
+.textsize{
+    font-size: 325%;
+    word-spacing: 10px;
+    color: white;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: white;
+}
+.Download{
+    margin: 5% 3% 5% 0%;
+}
+.imageiphone{
+    width: 60%;
+    position: absolute;
+    right: 20%;
+}
+.navbar{
+    margin-bottom: 100px;
+}  
+.col-lg-4{
+    text-align: center;
+}
+.fa-color{
+    color: #ff4c68;
+    
+}
+#features{
+    padding: 5% 12% 0%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+.carousel-item{
+    padding: 5% 12%;
+    margin-top: 100px;
+    background-color: #ff4c68;
+    text-align: center;
+}
+.buttons{
+    margin-top: 100px;
+}
+.test-image{
+    border-radius: 100%;
+    width: 100px;
+    margin: 15px;
+}
+#press{
+    background-color: #ff4c68;
+    padding: 0% 12% 4%;
+    text-align: center;
+   
+}
+.press-image{
+    width: 200px;
+    margin: 15px;
+}
+#pricing{
+    margin: 100px;
+    text-align: center;
+}
+.card{
+    padding: 5% 3%;
+    margin: 35px 15px;
+}
+@media (max-width: 989px){
+    .degree{
+        transform: rotate(0);
+    }
+    .imageiphone{
+        position: static;
+    }
+    #title{
+        text-align: center;
+    }
+
+}
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5%;
+}
+.love{
+    font-family: fantasy;
+    color: white;
+    font-size: 35px;
+}
+.cof{
+    margin: 15px 10px;
+}
+#footer{
+    text-align: center;
+}
